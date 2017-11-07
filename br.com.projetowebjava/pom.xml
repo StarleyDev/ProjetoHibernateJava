@@ -129,7 +129,7 @@
 
 	</dependencies>
 	<repositories>
-
+<!-- Aqui deve ser colocado a identificação do gerenciador de dependecias NEXUS 3 -->
 		<repository>
 			<id>maven-group</id>
 			<url>http://localhost:8081/repository/maven-group/</url>
