@@ -1,6 +1,7 @@
 <settings>
 <servers>
     <server>
+        <!-- Aqui deve ser colocado o login e senha definidos por você quando instalou o Nexus-->
       <id>nexus</id>
       <username>admin</username>
       <password>admin123</password>
