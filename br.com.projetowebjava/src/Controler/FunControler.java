@@ -12,8 +12,8 @@ import java.util.List;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
-import FabricaConexao.HibernateUtil;
 import Model.Funcionario;
+import Util.HibernateUtil;
 
 public class FunControler {
 
@@ -62,8 +62,7 @@ public class FunControler {
 			// Iniciando transação com banco //
 			em.getTransaction().begin();
 			// Removendo objeto //
-			Query q = em
-					.createNativeQuery("DELETE funcionario FROM funcionario WHERE pass = " + _Funcionario.getPass());
+			Query q = em.createNativeQuery("DELETE funcionario FROM funcionario WHERE id = " + _Funcionario.getId());
 			q.executeUpdate();
 			// Comitando para banco //
 			em.getTransaction().commit();

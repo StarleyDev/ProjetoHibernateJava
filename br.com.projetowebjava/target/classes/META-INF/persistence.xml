@@ -7,9 +7,10 @@
 		<properties>
 			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
-			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://mysql857.umbler.com:41890/off" />
-			<property name="javax.persistence.jdbc.user" value="mysqloff" />
-			<property name="javax.persistence.jdbc.password" value="Minha123Sql" />
+			<property name="javax.persistence.jdbc.url"
+				value="jdbc:mysql://mysql762.umbler.com:41890/webjava" />
+			<property name="javax.persistence.jdbc.user" value="webjava" />
+			<property name="javax.persistence.jdbc.password" value="webjavast" />
 
 			<property name="
 				hibernate.show_sql " value="true" />

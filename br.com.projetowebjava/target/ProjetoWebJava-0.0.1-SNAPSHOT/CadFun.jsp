@@ -197,11 +197,11 @@ form.login a:hover {
 		window.parent.postMessage(iframe_height, 'https://bootsnipp.com');
 	});
 </script>
-
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Cadastro Funcionario</title>
-</head><body>
+</head>
+<body>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -214,11 +214,10 @@ form.login a:hover {
 				</div>
 				<div class="wrap">
 					<p class="form-title">CADASTRO DE FUNCIONARIOS</p>
-					<form class="login" action="CadFunc" method="get">
+					<form class="login" action="FunServlet" method="post">
 						<input type="text" placeholder="Nome" name="nome" /> <br> <input
-							type="text" placeholder="Telefone" name="telefone" /> <br>
-						<input type="text" placeholder="CPF" name="cpf" /> <br> 
-						<input type="text" placeholder="CPF" name="email" /> <br> <input
+							type="text" placeholder="Telefone" name="tel" /> <br> <input
+							type="text" placeholder="CPF" name="cpf" /> <br> <input
 							type="text" placeholder="Usuário" name="user" /> <br> <input
 							type="password" placeholder="Senha" name="pass" /> <input
 							type="submit" value="CADASTRAR" class="btn btn-success btn-sm" />

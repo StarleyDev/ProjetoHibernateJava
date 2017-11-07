@@ -1,7 +1,11 @@
 /home/starlley/Documents/eclipse-workspace/br.com.projetowebjava/src/Controler/FunControler.java
 /home/starlley/Documents/eclipse-workspace/br.com.projetowebjava/src/View/PrincipalView.java
-/home/starlley/Documents/eclipse-workspace/br.com.projetowebjava/src/FabricaConexao/SessionFactory.java
-/home/starlley/Documents/eclipse-workspace/br.com.projetowebjava/src/FabricaConexao/HibernateUtil.java
+/home/starlley/Documents/eclipse-workspace/br.com.projetowebjava/src/Model/Cliente.java
+/home/starlley/Documents/eclipse-workspace/br.com.projetowebjava/src/Controler/CliControler.java
+/home/starlley/Documents/eclipse-workspace/br.com.projetowebjava/src/Model/Estoque.java
 /home/starlley/Documents/eclipse-workspace/br.com.projetowebjava/src/Servlet/Validate.java
+/home/starlley/Documents/eclipse-workspace/br.com.projetowebjava/src/Util/HibernateUtil.java
 /home/starlley/Documents/eclipse-workspace/br.com.projetowebjava/src/Servlet/Login.java
+/home/starlley/Documents/eclipse-workspace/br.com.projetowebjava/src/Controler/FuncionarioJpaDao.java
 /home/starlley/Documents/eclipse-workspace/br.com.projetowebjava/src/Model/Funcionario.java
+/home/starlley/Documents/eclipse-workspace/br.com.projetowebjava/src/Servlet/FunServlet.java

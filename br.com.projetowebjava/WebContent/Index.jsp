@@ -26,11 +26,11 @@
 					<div class="login" id="card">
 						<div class="front signin_form">
 							<p>LOGIN</p>
-							<form class="login-form" method="post" action="Login">
+							<form class="login-form" method="POST" action="Login">
 								<div class="form-group">
 									<div class="input-group">
-										<input type="text" class="form-control"
-											placeholder="Digite seu login" nome="us"> <span
+										<input nome="us" type="text" class="form-control"
+											placeholder="Digite seu ID"> <span
 											class="input-group-addon"> <i
 											class="glyphicon glyphicon-user"></i>
 										</span>
@@ -38,8 +38,8 @@
 								</div>
 								<div class="form-group">
 									<div class="input-group">
-										<input type="password" class="form-control"
-											placeholder="Digite seu password" nome="pwd"> <span
+										<input nome="pwd" type="password" class="form-control"
+											placeholder="Digite seu password"> <span
 											class="input-group-addon"> <i
 											class="glyphicon glyphicon-lock"></i>
 										</span>

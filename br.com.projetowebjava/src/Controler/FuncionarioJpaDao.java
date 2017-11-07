@@ -15,7 +15,7 @@ public class FuncionarioJpaDao {
 	// Criando a entity //
 	protected EntityManager entityManager;
 
-	// Criando a instancia e tetornando //
+	// Criando a instancia e retornando //
 	public static FuncionarioJpaDao getInstance() {
 
 		if (instance == null) {
@@ -51,7 +51,6 @@ public class FuncionarioJpaDao {
 	public Funcionario getById(final int id) {
 
 		return entityManager.find(Funcionario.class, id);
-
 	}
 
 	@SuppressWarnings("unchecked")
@@ -109,9 +108,11 @@ public class FuncionarioJpaDao {
 			entityManager.remove(funcionario);
 			entityManager.getTransaction().commit();
 
+			System.out.println("\nFuncionario removido com sucesso!!\n");
+
 		} catch (Exception ex) {
 			// Exibe erro caso o metodo acima nao funcione //
-			ex.printStackTrace();
+			System.out.println("\nFuncionario inexistente!\n");
 			// Usado para desfazer todas as alterações feitas //
 			entityManager.getTransaction().rollback();
 
@@ -128,7 +129,7 @@ public class FuncionarioJpaDao {
 
 		} catch (Exception ex) {
 			// Exibe erro caso o metodo acima nao funcione //
-			ex.printStackTrace();
+			System.out.println("Funcionario inexistente!");
 
 		}
 
